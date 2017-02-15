@@ -24,16 +24,9 @@ HIF003
 --
 FILES
 {
-	notand.vhd
+	rstrig_process.vhd
 	{
-		notand [] [U7449008.DLS,U1147235.DLS]
-		{
-			1 [] [];
-		}
-	}
-	rstrig.vhd
-	{
-		rstrig [] [U7449008.DLS,U1147235.DLS]
+		rstrig_process [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -41,9 +34,5 @@ FILES
 }
 TREE
 {
-	rstrig::(0,0):(0): rstrig.vhd
-	{
-		notand:1:(20,13):(5,u1): notand.vhd;
-		notand:1:(22,13):(6,u2): notand.vhd;
-	}
+	rstrig_process::(0,0):(0): rstrig_process.vhd;
 }
