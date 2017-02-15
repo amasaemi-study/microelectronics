@@ -12,7 +12,7 @@ InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainP
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
 "	IeEA	!	12	9	:5	s
 #	IeEA	!	12	9	:6	t
-$	IeEA	!	7	12	:7	u
-%	L8ef	!	5	8	1	'	a	o
-&	L8ef	!	6	12	1	'	b	p
-'	IeE]	!	7	12	c	q
+$	IeEA	!	7	20	:7	u
+%	L8ef	!	5	16	1	'	a	o
+&	L8ef	!	6	20	1	'	b	p
+'	IeE]	!	7	20	c	q

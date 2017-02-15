@@ -1,8 +1,8 @@
-Project Information                e:\microelectronics\not-and\text\notand.rpt
+Project Information                                      e:\project\notand.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 02/15/17 17:36:55
+Compiled: 02/15/17 21:30:38
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,7 +43,7 @@ User Pins:                 2        0        1
 
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ***** Logic for device 'notand' compiled without errors.
@@ -97,7 +97,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ** RESOURCE USAGE **
@@ -131,7 +131,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ** INPUTS **
@@ -153,7 +153,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ** OUTPUTS **
@@ -173,7 +173,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -196,7 +196,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:       e:\microelectronics\not-and\text\notand.rpt
+Device-Specific Information:                             e:\project\notand.rpt
 notand
 
 ** EQUATIONS **
@@ -218,7 +218,7 @@ _LC017   = LCELL( _EQ001 $  VCC);
 
 
 
-Project Information                e:\microelectronics\not-and\text\notand.rpt
+Project Information                                      e:\project\notand.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -296,8 +296,8 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:01
-   Fitter                                 00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
@@ -307,4 +307,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,039K
+Peak memory allocated during compilation  = 3,354K
