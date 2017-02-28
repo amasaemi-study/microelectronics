@@ -1,0 +1,148 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 136
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:100	"t
+#	IGdW	!	:101	"u
+$	IGdW	!	:102	"v
+%	IGdW	!	:103	"w
+&	IGdW	!	:104	"x
+'	IGdW	!	:105	"y
+(	IGdW	!	:106	"z
+)	IGdW	!	:107	"{
+*	IGdW	!	:108	"|
++	IGdW	!	:109	"}
+,	IGdW	!	:110	"~
+-	IGdW	!	:111	#!
+.	IGdW	!	:112	#"
+/	IGdW	!	:113	##
+0	IGdW	!	:114	#$
+1	IGdW	!	:115	#%
+2	IGdW	!	:116	#&
+3	IGdW	!	:117	#'
+4	IeEA	!	8	8	:130	#4
+5	IeEA	!	9	8	:131	#5
+6	IGdW	!	:38	"6
+7	IGdW	!	:39	"7
+8	IGdW	!	:40	"8
+9	IGdW	!	:41	"9
+:	IGdW	!	:42	":
+;	IGdW	!	:43	";
+<	IGdW	!	:44	"<
+=	IGdW	!	:45	"=
+>	IGdW	!	:46	">
+?	IGdW	!	:47	"?
+@	IGdW	!	:48	"@
+A	IGdW	!	:49	"A
+B	IGdW	!	:50	"B
+C	IGdW	!	:51	"C
+D	IGdW	!	:52	"D
+E	IGdW	!	:53	"E
+F	IGdW	!	:54	"F
+G	IGdW	!	:55	"G
+H	IGdW	!	:56	"H
+I	IGdW	!	:57	"I
+J	IGdW	!	:58	"J
+K	IGdW	!	:59	"K
+L	IGdW	!	:60	"L
+M	IGdW	!	:61	"M
+N	IGdW	!	:62	"N
+O	IGdW	!	:63	"O
+P	IGdW	!	:64	"P
+Q	IGdW	!	:65	"Q
+R	IGdW	!	:66	"R
+S	IGdW	!	:67	"S
+T	IGdW	!	:76	"\
+U	IGdW	!	:77	"]
+V	IGdW	!	:78	"^
+W	IGdW	!	:79	"_
+X	IGdW	!	:80	"`
+Y	IGdW	!	:81	"a
+Z	IGdW	!	:82	"b
+[	IGdW	!	:83	"c
+\	IGdW	!	:84	"d
+]	IGdW	!	:85	"e
+^	IGdW	!	:86	"f
+_	IGdW	!	:87	"g
+`	IGdW	!	:88	"h
+a	IGdW	!	:89	"i
+b	IGdW	!	:90	"j
+c	IGdW	!	:91	"k
+d	IGdW	!	:92	"l
+e	IGdW	!	:93	"m
+f	IGdW	!	:94	"n
+g	IGdW	!	:95	"o
+h	IGdW	!	:96	"p
+i	IGdW	!	:97	"q
+j	IGdW	!	:98	"r
+k	IGdW	!	:99	"s
+l	L8ef	!	6	8	6	n	o	"I	t	z	}	c	p
+m	L8ef	!	5	8	1	z	d	o
+n	IeE]	!	8	8	q1	r
+o	IeE]	!	9	8	q2	s
+p	L8ef	!	7	8	6	n	o	"I	t	z	}	r	q
+q	IFkI	!	~100~1	"t
+r	IFkI	!	~101~1	"u
+s	IFkI	!	~102~1	"v
+t	Kx.7	!	2	o	t	~103~1	"w
+u	IFkI	!	~104~1	"x
+v	IFkI	!	~105~1	"y
+w	IFkI	!	~106~1	"z
+x	IFkI	!	~107~1	"{
+y	IFkI	!	~108~1	"|
+z	Kx.7	!	3	n	"I	z	~109~1	"}
+{	IFkI	!	~110~1	"~
+|	IFkI	!	~111~1	#!
+}	Kx.7	!	3	o	t	}	~115~1	#%
+~	IFkI	!	~116~1	#&
+"!	IFkI	!	~117~1	#'
+""	IFkI	!	~38~1	"6
+"#	IFkI	!	~39~1	"7
+"$	IFkI	!	~40~1	"8
+"%	IFkI	!	~41~1	"9
+"&	IFkI	!	~42~1	":
+"'	IFkI	!	~43~1	";
+"(	IFkI	!	~44~1	"<
+")	IFkI	!	~45~1	"=
+"*	IFkI	!	~46~1	">
+"+	IFkI	!	~47~1	"?
+",	IFkI	!	~48~1	"@
+"-	IFkI	!	~49~1	"A
+".	IFkI	!	~50~1	"B
+"/	IFkI	!	~51~1	"C
+"0	IFkI	!	~52~1	"D
+"1	IFkI	!	~53~1	"E
+"2	IFkI	!	~54~1	"F
+"3	IFkI	!	~55~1	"G
+"4	IFkI	!	~56~1	"H
+"5	IFkI	!	~57~1	"I
+"6	IFkI	!	~58~1	"J
+"7	IFkI	!	~59~1	"K
+"8	IFkI	!	~60~1	"L
+"9	IFkI	!	~61~1	"M
+":	IFkI	!	~62~1	"N
+";	IFkI	!	~63~1	"O
+"<	IFkI	!	~64~1	"P
+"=	IFkI	!	~65~1	"Q
+">	IFkI	!	~66~1	"R
+"?	IFkI	!	~67~1	"S
+"@	IFkI	!	~76~1	"\
+"A	IFkI	!	~77~1	"]
+"B	IFkI	!	~78~1	"^
+"C	IFkI	!	~82~1	"b
+"D	IFkI	!	~83~1	"c
+"E	IFkI	!	~84~1	"d
+"F	IFkI	!	~94~1	"n
+"G	IFkI	!	~95~1	"o
+"H	IFkI	!	~96~1	"p
+"I	Kx.7	!	3	n	"I	}	~97~1	"q
+"J	IFkI	!	~98~1	"r
+"K	IFkI	!	~99~1	"s
