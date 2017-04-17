@@ -1,0 +1,836 @@
+Project Informationc:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 04/17/17 11:56:07
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+mux64-1   EPM7096QC100-7   71       1        0      13      4           13 %
+
+User Pins:                 71       1        0  
+
+
+
+Project Informationc:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+
+** FILE HIERARCHY **
+
+
+
+|mux4-1:21|
+|mux4-1:20|
+|mux4-1:19|
+|mux4-1:18|
+|mux4-1:17|
+|mux4-1:16|
+|mux4-1:15|
+|mux4-1:14|
+|mux4-1:13|
+|mux4-1:12|
+|mux4-1:22|
+|mux4-1:11|
+|mux4-1:10|
+|mux4-1:9|
+|mux4-1:8|
+|mux4-1:7|
+|mux4-1:5|
+|mux4-1:4|
+|mux4-1:6|
+|mux4-1:3|
+|mux4-1:2|
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+***** Logic for device 'mux64-1' compiled without errors.
+
+
+
+
+Device: EPM7096QC100-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** ERROR SUMMARY **
+
+Info: Chip 'mux64-1' in device 'EPM7096QC100-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                          V                          
+                          C                 V        
+                    N     C               N C        
+            x x x G . x x I G G G G G x x . C x x x  
+            3 3 3 N C 4 4 N N N N N N 1 1 C I 1 1 1  
+            7 8 9 D . 0 1 T D D D D D 7 6 . O 3 5 4  
+          ------------------------------------------_ 
+         / 100  98  96  94  92  90  88  86  84  82   |_ 
+        /     99  97  95  93  91  89  87  85  83  81    | 
+    EN |  1                                          80 | x12 
+    a6 |  2                                          79 | OUT 
+    a5 |  3                                          78 | x18 
+    a4 |  4                                          77 | x19 
+ VCCIO |  5                                          76 | GND 
+    a3 |  6                                          75 | x20 
+    a2 |  7                                          74 | x21 
+    a1 |  8                                          73 | x22 
+  N.C. |  9                                          72 | N.C. 
+   x31 | 10                                          71 | x23 
+   x63 | 11                                          70 | x11 
+   x32 | 12                                          69 | x1 
+   GND | 13                                          68 | VCCIO 
+   x33 | 14                                          67 | x64 
+   x46 | 15                                          66 | x2 
+   x34 | 16             EPM7096QC100-7               65 | x3 
+   x45 | 17                                          64 | x4 
+   x35 | 18                                          63 | x5 
+   x36 | 19                                          62 | x6 
+ VCCIO | 20                                          61 | GND 
+   x44 | 21                                          60 | x7 
+   x43 | 22                                          59 | x8 
+   x42 | 23                                          58 | x9 
+  N.C. | 24                                          57 | N.C. 
+   x57 | 25                                          56 | x10 
+   x49 | 26                                          55 | x51 
+   x27 | 27                                          54 | x52 
+   GND | 28                                          53 | VCCIO 
+   x58 | 29                                          52 | x24 
+   x50 | 30                                          51 | x53 
+       |      32  34  36  38  40  42  44  46  48  50  _| 
+        \   31  33  35  37  39  41  43  45  47  49   | 
+         \------------------------------------------- 
+            x x x x x V N x x G V x x N G x x x x x  
+            2 5 6 2 6 C . 6 3 N C 4 5 . N 4 2 5 2 5  
+            8 9 0 9 1 C C 2 0 D C 8 6 C D 7 6 5 5 4  
+                      I .       I     .              
+                      O         N                    
+                                T                    
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)  12/12(100%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     0/16(  0%)  12/12(100%)   0/16(  0%)   0/36(  0%) 
+C:    LC33 - LC48     1/16(  6%)  12/12(100%)   1/16(  6%)  12/36( 33%) 
+D:    LC49 - LC64     5/16( 31%)  12/12(100%)   5/16( 31%)  32/36( 88%) 
+E:    LC65 - LC80     5/16( 31%)  12/12(100%)   5/16( 31%)  32/36( 88%) 
+F:    LC81 - LC96     2/16( 12%)  12/12(100%)   5/16( 31%)  28/36( 77%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            72/72     (100%)
+Total logic cells used:                         13/96     ( 13%)
+Total shareable expanders used:                  4/96     (  4%)
+Total Turbo logic cells used:                   13/96     ( 13%)
+Total shareable expanders not available (n/a):  12/96     ( 12%)
+Average fan-in:                                  12.84
+Total fan-in:                                   167
+
+Total input pins required:                      71
+Total output pins required:                      1
+Total bidirectional pins required:               0
+Total logic cells required:                     13
+Total flipflops required:                        0
+Total product terms required:                   65
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           4
+
+Synthesized logic cells:                        12/  96   ( 12%)
+
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   8    (1)  (A)      INPUT               0      0   0    0    0    1   12  a1
+   7    (3)  (A)      INPUT               0      0   0    0    0    1   12  a2
+   6    (4)  (A)      INPUT               0      0   0    0    0    1   12  a3
+   4    (5)  (A)      INPUT               0      0   0    0    0    1   12  a4
+   3    (6)  (A)      INPUT               0      0   0    0    0    1   12  a5
+   2    (8)  (A)      INPUT               0      0   0    0    0    1   12  a6
+   1    (9)  (A)      INPUT               0      0   0    0    0    1   12  EN
+  69   (77)  (E)      INPUT               0      0   0    0    0    1    0  x1
+  66   (75)  (E)      INPUT               0      0   0    0    0    1    0  x2
+  65   (73)  (E)      INPUT               0      0   0    0    0    1    0  x3
+  64   (72)  (E)      INPUT               0      0   0    0    0    0    1  x4
+  63   (70)  (E)      INPUT               0      0   0    0    0    1    0  x5
+  62   (69)  (E)      INPUT               0      0   0    0    0    0    1  x6
+  60   (68)  (E)      INPUT               0      0   0    0    0    0    1  x7
+  59   (67)  (E)      INPUT               0      0   0    0    0    0    1  x8
+  58   (65)  (E)      INPUT               0      0   0    0    0    0    1  x9
+  56   (64)  (D)      INPUT               0      0   0    0    0    0    1  x10
+  70   (78)  (E)      INPUT               0      0   0    0    0    0    1  x11
+  80   (89)  (F)      INPUT               0      0   0    0    0    0    1  x12
+  83   (93)  (F)      INPUT               0      0   0    0    0    0    1  x13
+  81   (91)  (F)      INPUT               0      0   0    0    0    0    1  x14
+  82   (92)  (F)      INPUT               0      0   0    0    0    0    1  x15
+  86   (94)  (F)      INPUT               0      0   0    0    0    0    1  x16
+  87   (96)  (F)      INPUT               0      0   0    0    0    0    1  x17
+  78   (86)  (F)      INPUT               0      0   0    0    0    0    1  x18
+  77   (85)  (F)      INPUT               0      0   0    0    0    0    1  x19
+  75   (84)  (F)      INPUT               0      0   0    0    0    0    1  x20
+  74   (83)  (F)      INPUT               0      0   0    0    0    0    1  x21
+  73   (81)  (F)      INPUT               0      0   0    0    0    0    1  x22
+  71   (80)  (E)      INPUT               0      0   0    0    0    0    1  x23
+  52   (60)  (D)      INPUT               0      0   0    0    0    0    1  x24
+  49   (56)  (D)      INPUT               0      0   0    0    0    0    1  x25
+  47   (53)  (D)      INPUT               0      0   0    0    0    0    1  x26
+  27   (45)  (C)      INPUT               0      0   0    0    0    0    1  x27
+  31   (41)  (C)      INPUT               0      0   0    0    0    0    1  x28
+  34   (37)  (C)      INPUT               0      0   0    0    0    0    1  x29
+  39   (33)  (C)      INPUT               0      0   0    0    0    0    1  x30
+  10   (32)  (B)      INPUT               0      0   0    0    0    0    1  x31
+  12   (29)  (B)      INPUT               0      0   0    0    0    0    1  x32
+  14   (28)  (B)      INPUT               0      0   0    0    0    0    1  x33
+  16   (25)  (B)      INPUT               0      0   0    0    0    0    1  x34
+  18   (22)  (B)      INPUT               0      0   0    0    0    0    1  x35
+  19   (21)  (B)      INPUT               0      0   0    0    0    0    1  x36
+ 100   (11)  (A)      INPUT               0      0   0    0    0    0    1  x37
+  99   (12)  (A)      INPUT               0      0   0    0    0    0    1  x38
+  98   (13)  (A)      INPUT               0      0   0    0    0    0    1  x39
+  95   (14)  (A)      INPUT               0      0   0    0    0    0    1  x40
+  94   (16)  (A)      INPUT               0      0   0    0    0    0    1  x41
+  23   (17)  (B)      INPUT               0      0   0    0    0    0    1  x42
+  22   (19)  (B)      INPUT               0      0   0    0    0    0    1  x43
+  21   (20)  (B)      INPUT               0      0   0    0    0    0    1  x44
+  17   (24)  (B)      INPUT               0      0   0    0    0    0    1  x45
+  15   (27)  (B)      INPUT               0      0   0    0    0    0    1  x46
+  46   (52)  (D)      INPUT               0      0   0    0    0    0    1  x47
+  42   (49)  (D)      INPUT               0      0   0    0    0    0    1  x48
+  26   (46)  (C)      INPUT               0      0   0    0    0    0    1  x49
+  30   (43)  (C)      INPUT               0      0   0    0    0    0    1  x50
+  55   (62)  (D)      INPUT               0      0   0    0    0    0    1  x51
+  54   (61)  (D)      INPUT               0      0   0    0    0    0    1  x52
+  51   (59)  (D)      INPUT               0      0   0    0    0    0    1  x53
+  50   (57)  (D)      INPUT               0      0   0    0    0    0    1  x54
+  48   (54)  (D)      INPUT               0      0   0    0    0    0    1  x55
+  43   (51)  (D)      INPUT               0      0   0    0    0    0    1  x56
+  25   (48)  (C)      INPUT               0      0   0    0    0    0    1  x57
+  29   (44)  (C)      INPUT               0      0   0    0    0    0    1  x58
+  32   (40)  (C)      INPUT               0      0   0    0    0    0    1  x59
+  33   (38)  (C)      INPUT               0      0   0    0    0    0    1  x60
+  35   (36)  (C)      INPUT               0      0   0    0    0    0    1  x61
+  38   (35)  (C)      INPUT               0      0   0    0    0    0    1  x62
+  11   (30)  (B)      INPUT               0      0   0    0    0    0    1  x63
+  67   (76)  (E)      INPUT               0      0   0    0    0    0    1  x64
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  79     88    F     OUTPUT      t        4      0   0   11   12    0    0  OUT
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (75)    84    F       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~1 (|mux4-1:22|~19~1)
+ (32)    40    C       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~2 (|mux4-1:22|~19~2)
+ (65)    73    E       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~3 (|mux4-1:22|~19~3)
+ (66)    75    E       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~4 (|mux4-1:22|~19~4)
+   -     79    E       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~5 (|mux4-1:22|~19~5)
+ (58)    65    E       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~6 (|mux4-1:22|~19~6)
+ (59)    67    E       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~7 (|mux4-1:22|~19~7)
+ (42)    49    D       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~8 (|mux4-1:22|~19~8)
+   -     50    D       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~9 (|mux4-1:22|~19~9)
+ (43)    51    D       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~10 (|mux4-1:22|~19~10)
+ (46)    52    D       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~11 (|mux4-1:22|~19~11)
+   -     55    D       SOFT    s t        1      0   1   12    0    1    0  |mux4-1:22|OUT~12 (|mux4-1:22|~19~12)
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+           Logic cells placed in LAB 'C'
+        +- LC40 |mux4-1:22|OUT~2
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'C'
+LC      | | A B C D E F |     Logic cells that feed LAB 'C':
+
+Pin
+8    -> * | - - * * * * | <-- a1
+7    -> * | - - * * * * | <-- a2
+6    -> * | - - * * * * | <-- a3
+4    -> * | - - * * * * | <-- a4
+3    -> * | - - * * * * | <-- a5
+2    -> * | - - * * * * | <-- a6
+1    -> * | - - * * * * | <-- EN
+12   -> * | - - * - - - | <-- x32
+42   -> * | - - * - - - | <-- x48
+29   -> * | - - * - - - | <-- x58
+32   -> * | - - * - - - | <-- x59
+35   -> * | - - * - - - | <-- x61
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                   Logic cells placed in LAB 'D'
+        +--------- LC49 |mux4-1:22|OUT~8
+        | +------- LC50 |mux4-1:22|OUT~9
+        | | +----- LC51 |mux4-1:22|OUT~10
+        | | | +--- LC52 |mux4-1:22|OUT~11
+        | | | | +- LC55 |mux4-1:22|OUT~12
+        | | | | | 
+        | | | | |   Other LABs fed by signals
+        | | | | |   that feed LAB 'D'
+LC      | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+
+Pin
+8    -> * * * * * | - - * * * * | <-- a1
+7    -> * * * * * | - - * * * * | <-- a2
+6    -> * * * * * | - - * * * * | <-- a3
+4    -> * * * * * | - - * * * * | <-- a4
+3    -> * * * * * | - - * * * * | <-- a5
+2    -> * * * * * | - - * * * * | <-- a6
+1    -> * * * * * | - - * * * * | <-- EN
+64   -> - - - - * | - - - * - - | <-- x4
+62   -> - - - - * | - - - * - - | <-- x6
+60   -> - - - * - | - - - * - - | <-- x7
+59   -> - * - - - | - - - * - - | <-- x8
+58   -> - - - - * | - - - * - - | <-- x9
+56   -> - - - * - | - - - * - - | <-- x10
+70   -> - - - * - | - - - * - - | <-- x11
+80   -> - * - - - | - - - * - - | <-- x12
+83   -> - - - * - | - - - * - - | <-- x13
+81   -> * - - - - | - - - * - - | <-- x14
+82   -> * - - - - | - - - * - - | <-- x15
+87   -> - - - - * | - - - * - - | <-- x17
+78   -> - - - * - | - - - * - - | <-- x18
+77   -> - - * - - | - - - * - - | <-- x19
+75   -> * - - - - | - - - * - - | <-- x20
+74   -> - - * - - | - - - * - - | <-- x21
+73   -> * - - - - | - - - * - - | <-- x22
+71   -> * - - - - | - - - * - - | <-- x23
+49   -> - - * - - | - - - * - - | <-- x25
+14   -> - - - - * | - - - * - - | <-- x33
+16   -> - - * - - | - - - * - - | <-- x34
+18   -> - - * - - | - - - * - - | <-- x35
+100  -> - * - - - | - - - * - - | <-- x37
+94   -> - * - - - | - - - * - - | <-- x41
+26   -> - * - - - | - - - * - - | <-- x49
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                   Logic cells placed in LAB 'E'
+        +--------- LC73 |mux4-1:22|OUT~3
+        | +------- LC75 |mux4-1:22|OUT~4
+        | | +----- LC79 |mux4-1:22|OUT~5
+        | | | +--- LC65 |mux4-1:22|OUT~6
+        | | | | +- LC67 |mux4-1:22|OUT~7
+        | | | | | 
+        | | | | |   Other LABs fed by signals
+        | | | | |   that feed LAB 'E'
+LC      | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+
+Pin
+8    -> * * * * * | - - * * * * | <-- a1
+7    -> * * * * * | - - * * * * | <-- a2
+6    -> * * * * * | - - * * * * | <-- a3
+4    -> * * * * * | - - * * * * | <-- a4
+3    -> * * * * * | - - * * * * | <-- a5
+2    -> * * * * * | - - * * * * | <-- a6
+1    -> * * * * * | - - * * * * | <-- EN
+86   -> - - * - - | - - - - * - | <-- x16
+52   -> - - * - - | - - - - * - | <-- x24
+47   -> - - - - * | - - - - * - | <-- x26
+27   -> - - - - * | - - - - * - | <-- x27
+31   -> - * - - - | - - - - * - | <-- x28
+34   -> - - - - * | - - - - * - | <-- x29
+39   -> - * - - - | - - - - * - | <-- x30
+10   -> - * - - - | - - - - * - | <-- x31
+19   -> - - - - * | - - - - * - | <-- x36
+99   -> - - - - * | - - - - * - | <-- x38
+98   -> - - - * - | - - - - * - | <-- x39
+95   -> - * - - - | - - - - * - | <-- x40
+23   -> - - - * - | - - - - * - | <-- x42
+22   -> - - - * - | - - - - * - | <-- x43
+21   -> - * - - - | - - - - * - | <-- x44
+17   -> - - - * - | - - - - * - | <-- x45
+15   -> * - - - - | - - - - * - | <-- x46
+46   -> * - - - - | - - - - * - | <-- x47
+30   -> - - - * - | - - - - * - | <-- x50
+55   -> - - * - - | - - - - * - | <-- x51
+54   -> * - - - - | - - - - * - | <-- x52
+51   -> - - * - - | - - - - * - | <-- x53
+50   -> * - - - - | - - - - * - | <-- x54
+48   -> * - - - - | - - - - * - | <-- x55
+25   -> - - * - - | - - - - * - | <-- x57
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+             Logic cells placed in LAB 'F'
+        +--- LC84 |mux4-1:22|OUT~1
+        | +- LC88 OUT
+        | | 
+        | |   Other LABs fed by signals
+        | |   that feed LAB 'F'
+LC      | | | A B C D E F |     Logic cells that feed LAB 'F':
+LC84 -> - * | - - - - - * | <-- |mux4-1:22|OUT~1
+
+Pin
+8    -> * * | - - * * * * | <-- a1
+7    -> * * | - - * * * * | <-- a2
+6    -> * * | - - * * * * | <-- a3
+4    -> * * | - - * * * * | <-- a4
+3    -> * * | - - * * * * | <-- a5
+2    -> * * | - - * * * * | <-- a6
+1    -> * * | - - * * * * | <-- EN
+69   -> - * | - - - - - * | <-- x1
+66   -> - * | - - - - - * | <-- x2
+65   -> - * | - - - - - * | <-- x3
+63   -> - * | - - - - - * | <-- x5
+43   -> * - | - - - - - * | <-- x56
+33   -> * - | - - - - - * | <-- x60
+38   -> * - | - - - - - * | <-- x62
+11   -> * - | - - - - - * | <-- x63
+67   -> * - | - - - - - * | <-- x64
+LC40 -> - * | - - - - - * | <-- |mux4-1:22|OUT~2
+LC73 -> - * | - - - - - * | <-- |mux4-1:22|OUT~3
+LC75 -> - * | - - - - - * | <-- |mux4-1:22|OUT~4
+LC79 -> - * | - - - - - * | <-- |mux4-1:22|OUT~5
+LC65 -> - * | - - - - - * | <-- |mux4-1:22|OUT~6
+LC67 -> - * | - - - - - * | <-- |mux4-1:22|OUT~7
+LC49 -> - * | - - - - - * | <-- |mux4-1:22|OUT~8
+LC50 -> - * | - - - - - * | <-- |mux4-1:22|OUT~9
+LC51 -> - * | - - - - - * | <-- |mux4-1:22|OUT~10
+LC52 -> - * | - - - - - * | <-- |mux4-1:22|OUT~11
+LC55 -> - * | - - - - - * | <-- |mux4-1:22|OUT~12
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+mux64-1
+
+** EQUATIONS **
+
+a1       : INPUT;
+a2       : INPUT;
+a3       : INPUT;
+a4       : INPUT;
+a5       : INPUT;
+a6       : INPUT;
+EN       : INPUT;
+x1       : INPUT;
+x2       : INPUT;
+x3       : INPUT;
+x4       : INPUT;
+x5       : INPUT;
+x6       : INPUT;
+x7       : INPUT;
+x8       : INPUT;
+x9       : INPUT;
+x10      : INPUT;
+x11      : INPUT;
+x12      : INPUT;
+x13      : INPUT;
+x14      : INPUT;
+x15      : INPUT;
+x16      : INPUT;
+x17      : INPUT;
+x18      : INPUT;
+x19      : INPUT;
+x20      : INPUT;
+x21      : INPUT;
+x22      : INPUT;
+x23      : INPUT;
+x24      : INPUT;
+x25      : INPUT;
+x26      : INPUT;
+x27      : INPUT;
+x28      : INPUT;
+x29      : INPUT;
+x30      : INPUT;
+x31      : INPUT;
+x32      : INPUT;
+x33      : INPUT;
+x34      : INPUT;
+x35      : INPUT;
+x36      : INPUT;
+x37      : INPUT;
+x38      : INPUT;
+x39      : INPUT;
+x40      : INPUT;
+x41      : INPUT;
+x42      : INPUT;
+x43      : INPUT;
+x44      : INPUT;
+x45      : INPUT;
+x46      : INPUT;
+x47      : INPUT;
+x48      : INPUT;
+x49      : INPUT;
+x50      : INPUT;
+x51      : INPUT;
+x52      : INPUT;
+x53      : INPUT;
+x54      : INPUT;
+x55      : INPUT;
+x56      : INPUT;
+x57      : INPUT;
+x58      : INPUT;
+x59      : INPUT;
+x60      : INPUT;
+x61      : INPUT;
+x62      : INPUT;
+x63      : INPUT;
+x64      : INPUT;
+
+-- Node name is 'OUT' 
+-- Equation name is 'OUT', location is LC088, type is output.
+ OUT     = LCELL( _EQ001 $  VCC);
+  _EQ001 = !_LC040 & !_LC049 & !_LC050 & !_LC051 & !_LC052 & !_LC055 & 
+             !_LC065 & !_LC067 & !_LC073 & !_LC075 & !_LC079 & !_LC084 & 
+              _X001 &  _X002 &  _X003 &  _X004;
+  _X001  = EXP(!a1 & !a2 & !a3 & !a4 & !a5 & !a6 &  EN &  x1);
+  _X002  = EXP( a1 & !a2 & !a3 & !a4 & !a5 & !a6 &  EN &  x2);
+  _X003  = EXP(!a1 &  a2 & !a3 & !a4 & !a5 & !a6 &  EN &  x3);
+  _X004  = EXP(!a1 & !a2 &  a3 & !a4 & !a5 & !a6 &  EN &  x5);
+
+-- Node name is '|mux4-1:22|~19~1' = '|mux4-1:22|OUT~1' 
+-- Equation name is '_LC084', type is buried 
+-- synthesized logic cell 
+_LC084   = LCELL( _EQ002 $  GND);
+  _EQ002 =  a1 &  a2 &  a3 &  a4 &  a5 &  a6 &  EN &  x64
+         # !a1 &  a2 &  a3 &  a4 &  a5 &  a6 &  EN &  x63
+         #  a1 & !a2 &  a3 &  a4 &  a5 &  a6 &  EN &  x62
+         #  a1 &  a2 & !a3 &  a4 &  a5 &  a6 &  EN &  x60
+         #  a1 &  a2 &  a3 & !a4 &  a5 &  a6 &  EN &  x56;
+
+-- Node name is '|mux4-1:22|~19~2' = '|mux4-1:22|OUT~2' 
+-- Equation name is '_LC040', type is buried 
+-- synthesized logic cell 
+_LC040   = LCELL( _EQ003 $  GND);
+  _EQ003 =  a1 &  a2 &  a3 &  a4 & !a5 &  a6 &  EN &  x48
+         #  a1 &  a2 &  a3 &  a4 &  a5 & !a6 &  EN &  x32
+         # !a1 & !a2 &  a3 &  a4 &  a5 &  a6 &  EN &  x61
+         # !a1 &  a2 & !a3 &  a4 &  a5 &  a6 &  EN &  x59
+         #  a1 & !a2 & !a3 &  a4 &  a5 &  a6 &  EN &  x58;
+
+-- Node name is '|mux4-1:22|~19~3' = '|mux4-1:22|OUT~3' 
+-- Equation name is '_LC073', type is buried 
+-- synthesized logic cell 
+_LC073   = LCELL( _EQ004 $  GND);
+  _EQ004 = !a1 &  a2 &  a3 & !a4 &  a5 &  a6 &  EN &  x55
+         #  a1 & !a2 &  a3 & !a4 &  a5 &  a6 &  EN &  x54
+         #  a1 &  a2 & !a3 & !a4 &  a5 &  a6 &  EN &  x52
+         # !a1 &  a2 &  a3 &  a4 & !a5 &  a6 &  EN &  x47
+         #  a1 & !a2 &  a3 &  a4 & !a5 &  a6 &  EN &  x46;
+
+-- Node name is '|mux4-1:22|~19~4' = '|mux4-1:22|OUT~4' 
+-- Equation name is '_LC075', type is buried 
+-- synthesized logic cell 
+_LC075   = LCELL( _EQ005 $  GND);
+  _EQ005 =  a1 &  a2 & !a3 &  a4 & !a5 &  a6 &  EN &  x44
+         #  a1 &  a2 &  a3 & !a4 & !a5 &  a6 &  EN &  x40
+         # !a1 &  a2 &  a3 &  a4 &  a5 & !a6 &  EN &  x31
+         #  a1 & !a2 &  a3 &  a4 &  a5 & !a6 &  EN &  x30
+         #  a1 &  a2 & !a3 &  a4 &  a5 & !a6 &  EN &  x28;
+
+-- Node name is '|mux4-1:22|~19~5' = '|mux4-1:22|OUT~5' 
+-- Equation name is '_LC079', type is buried 
+-- synthesized logic cell 
+_LC079   = LCELL( _EQ006 $  GND);
+  _EQ006 =  a1 &  a2 &  a3 & !a4 &  a5 & !a6 &  EN &  x24
+         #  a1 &  a2 &  a3 &  a4 & !a5 & !a6 &  EN &  x16
+         # !a1 & !a2 & !a3 &  a4 &  a5 &  a6 &  EN &  x57
+         # !a1 & !a2 &  a3 & !a4 &  a5 &  a6 &  EN &  x53
+         # !a1 &  a2 & !a3 & !a4 &  a5 &  a6 &  EN &  x51;
+
+-- Node name is '|mux4-1:22|~19~6' = '|mux4-1:22|OUT~6' 
+-- Equation name is '_LC065', type is buried 
+-- synthesized logic cell 
+_LC065   = LCELL( _EQ007 $  GND);
+  _EQ007 =  a1 & !a2 & !a3 & !a4 &  a5 &  a6 &  EN &  x50
+         # !a1 & !a2 &  a3 &  a4 & !a5 &  a6 &  EN &  x45
+         # !a1 &  a2 & !a3 &  a4 & !a5 &  a6 &  EN &  x43
+         #  a1 & !a2 & !a3 &  a4 & !a5 &  a6 &  EN &  x42
+         # !a1 &  a2 &  a3 & !a4 & !a5 &  a6 &  EN &  x39;
+
+-- Node name is '|mux4-1:22|~19~7' = '|mux4-1:22|OUT~7' 
+-- Equation name is '_LC067', type is buried 
+-- synthesized logic cell 
+_LC067   = LCELL( _EQ008 $  GND);
+  _EQ008 =  a1 & !a2 &  a3 & !a4 & !a5 &  a6 &  EN &  x38
+         #  a1 &  a2 & !a3 & !a4 & !a5 &  a6 &  EN &  x36
+         # !a1 & !a2 &  a3 &  a4 &  a5 & !a6 &  EN &  x29
+         # !a1 &  a2 & !a3 &  a4 &  a5 & !a6 &  EN &  x27
+         #  a1 & !a2 & !a3 &  a4 &  a5 & !a6 &  EN &  x26;
+
+-- Node name is '|mux4-1:22|~19~8' = '|mux4-1:22|OUT~8' 
+-- Equation name is '_LC049', type is buried 
+-- synthesized logic cell 
+_LC049   = LCELL( _EQ009 $  GND);
+  _EQ009 = !a1 &  a2 &  a3 & !a4 &  a5 & !a6 &  EN &  x23
+         #  a1 & !a2 &  a3 & !a4 &  a5 & !a6 &  EN &  x22
+         #  a1 &  a2 & !a3 & !a4 &  a5 & !a6 &  EN &  x20
+         # !a1 &  a2 &  a3 &  a4 & !a5 & !a6 &  EN &  x15
+         #  a1 & !a2 &  a3 &  a4 & !a5 & !a6 &  EN &  x14;
+
+-- Node name is '|mux4-1:22|~19~9' = '|mux4-1:22|OUT~9' 
+-- Equation name is '_LC050', type is buried 
+-- synthesized logic cell 
+_LC050   = LCELL( _EQ010 $  GND);
+  _EQ010 =  a1 &  a2 & !a3 &  a4 & !a5 & !a6 &  EN &  x12
+         #  a1 &  a2 &  a3 & !a4 & !a5 & !a6 &  EN &  x8
+         # !a1 & !a2 & !a3 & !a4 &  a5 &  a6 &  EN &  x49
+         # !a1 & !a2 & !a3 &  a4 & !a5 &  a6 &  EN &  x41
+         # !a1 & !a2 &  a3 & !a4 & !a5 &  a6 &  EN &  x37;
+
+-- Node name is '|mux4-1:22|~19~10' = '|mux4-1:22|OUT~10' 
+-- Equation name is '_LC051', type is buried 
+-- synthesized logic cell 
+_LC051   = LCELL( _EQ011 $  GND);
+  _EQ011 = !a1 &  a2 & !a3 & !a4 & !a5 &  a6 &  EN &  x35
+         #  a1 & !a2 & !a3 & !a4 & !a5 &  a6 &  EN &  x34
+         # !a1 & !a2 & !a3 &  a4 &  a5 & !a6 &  EN &  x25
+         # !a1 & !a2 &  a3 & !a4 &  a5 & !a6 &  EN &  x21
+         # !a1 &  a2 & !a3 & !a4 &  a5 & !a6 &  EN &  x19;
+
+-- Node name is '|mux4-1:22|~19~11' = '|mux4-1:22|OUT~11' 
+-- Equation name is '_LC052', type is buried 
+-- synthesized logic cell 
+_LC052   = LCELL( _EQ012 $  GND);
+  _EQ012 =  a1 & !a2 & !a3 & !a4 &  a5 & !a6 &  EN &  x18
+         # !a1 & !a2 &  a3 &  a4 & !a5 & !a6 &  EN &  x13
+         # !a1 &  a2 & !a3 &  a4 & !a5 & !a6 &  EN &  x11
+         #  a1 & !a2 & !a3 &  a4 & !a5 & !a6 &  EN &  x10
+         # !a1 &  a2 &  a3 & !a4 & !a5 & !a6 &  EN &  x7;
+
+-- Node name is '|mux4-1:22|~19~12' = '|mux4-1:22|OUT~12' 
+-- Equation name is '_LC055', type is buried 
+-- synthesized logic cell 
+_LC055   = LCELL( _EQ013 $  GND);
+  _EQ013 =  a1 & !a2 &  a3 & !a4 & !a5 & !a6 &  EN &  x6
+         #  a1 &  a2 & !a3 & !a4 & !a5 & !a6 &  EN &  x4
+         # !a1 & !a2 & !a3 & !a4 & !a5 &  a6 &  EN &  x33
+         # !a1 & !a2 & !a3 & !a4 &  a5 & !a6 &  EN &  x17
+         # !a1 & !a2 & !a3 &  a4 & !a5 & !a6 &  EN &  x9;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Informationc:\documents and settings\user\my documents\mux4-1\mux64-1.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:00
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 3,622K
